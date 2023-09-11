@@ -17,7 +17,7 @@ spatial <- tabPanel(title = "Räumlich",
                  ),
                  h4("Strömungskarte"),
                  fluidRow(
-                   column(1, img(src='img/spatial/flow.png', align = "left", height="150%", width="150%")),
+                   column(1, img(src='img/spatial/flows.png', align = "left", height="150%", width="150%")),
                    column(5, "Zur eindeutigen Darstellung von Bewegungen auf einer Karte.")
                  ),
                  h4("Konturkarte"),
@@ -37,7 +37,7 @@ spatial <- tabPanel(title = "Räumlich",
                  ),
                  h4("Punktdichte"),
                  fluidRow(
-                   column(1, img(src='img/spatial/dotdensity.png', align = "left", height="150%", width="150%")),
+                   column(1, img(src='img/spatial/dot_density.png', align = "left", height="150%", width="150%")),
                    column(5, "Wird verwendet, um die Lage der einzelnen Ereignisse/Orte zu zeigen - achten Sie darauf, alle Muster zu vermerken, die der Betrachter sehen soll.")
                  ),
                  h4("Heatmap"),
