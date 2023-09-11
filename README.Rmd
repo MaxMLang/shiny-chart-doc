@@ -1,21 +1,25 @@
+---
+output: github_document
+---
 
-Voronoys <a href='https://voronoys.shinyapps.io/voronoys/'><img src='www/img/logo.png' align="right" height="138.5" /></a>
-==========================================================================================================================
+# Voronoys <a href='https://voronoys.shinyapps.io/voronoys/'><img src='www/img/logo.png' align="right" height="138.5" /></a>
 
-About the app
--------------
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About the app
 
 **VORONOYS** is a team composed by four statisticians and a political scientist. It begins motivated by the first CEPESP Data challenge, in which the main objective was to show new perspectives on the Brazilian elections. The name is based on the mathematical technique used in this work called Voronoi tessellation.
 
-Links
------
 
--   Live version: [Voronoys - Live app](https://voronoys.shinyapps.io/voronoys/)
--   RStudio cloud: [Voronoys - RStudio cloud](https://rstudio.cloud/project/255741)
--   GitHub: [Voronoys - Github](https://github.com/voronoys/voronoys_sc)
+## Links
 
-Quick reading: Highlights
--------------------------
++ Live version: [Voronoys - Live app](https://voronoys.shinyapps.io/voronoys/)
++ RStudio cloud: [Voronoys - RStudio cloud](https://rstudio.cloud/project/255741)
++ GitHub: [Voronoys - Github](https://github.com/voronoys/voronoys_sc)
+
+## Quick reading: Highlights
 
 This tool provides to its users a deep access to Brazilian election results. It enablesto create general maps, plots, and tables by states and cities. It also enables investigate some under reported analysis, the case of the number of coalitions for example. As Brazil has nowadays 35 parties, our tool provides the users a huge number of analysis possibilities.
 
@@ -23,10 +27,10 @@ Besides the general visualizations, we also provide a new way to investigate Bra
 
 With this tool it is possible to check some hypothesis about characteristics of each party voters. Is it true that low-income people vote in left-wing parties? And white people? Feel free to check the voters of our 35 parties!
 
+
 ![](www/img/voronoys.png)
 
-General idea
-------------
+## General idea
 
 Our main aim is to provide a non-conventional tool to visualize Brazilian elections in which the user is able to understand the information clearly and directly. As a consequence, everyone is able to use and understand this tool.
 
@@ -34,8 +38,8 @@ A differential feature of our app is the possibility to visualize Brazilian elec
 
 We assumed that voters prefer to vote near their houses. Then using censitary information we can contrast two layers of polygons: 1) censitary regions; 2) Voronoi cells, created using electoral sections. Hence, it is possible to compare the populations of different parties and to understand their main characteristics.
 
-Visualizations
---------------
+
+## Visualizations
 
 The first screen give to user four tabs:
 
@@ -56,6 +60,7 @@ Here it is possible to understand how political parties are related in federal a
 ### Candidates
 
 Voronoi methodology in practice and also personal informations of each politician. Socio-demographic information of parties voters and each candidate votes by cities are some example of outputs in this tab.
+
 
 ![](www/img/candidatos.png)
 
