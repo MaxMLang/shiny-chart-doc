@@ -36,7 +36,7 @@ home <- tabPanel(title = "Home",
                         wellPanel(
                           HTML("<h1><b>Chart Doktor</b></h1>"),
                           HTML("<h4>Der <b>Chart Doctor</b> ist die beliebte Kolumne der FT über Visualisierungen von Alan Smith, dem Head of Visual and Datajournalism bei der Financial Times. Wir haben seine <a href='https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary'>hier</a>
- verfügbare Übersicht verwendet, sie übersetzt und in diese Shiny Application eingebaut.</h4>")
+ verfügbare Übersicht verwendet, sie übersetzt und in diese Shiny Application eingebaut. Als Template für diese App wurde das <a href='https://github.com/voronoys'>Voronoys</a> Projekt verwendet.</h4>") 
                         )
                  )
 )
