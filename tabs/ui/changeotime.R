@@ -8,6 +8,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Liniendiagramm"),
                         fluidRow(
                           column(1, img(src='img/changeotime/line.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Die Standardmethode zur Darstellung einer sich verändernden Zeitreihe. Wenn die Daten unregelmäßig sind, sollten Sie Markierungen zur Darstellung von Datenpunkten in Betracht ziehen.")
                         ),
                         br(),
@@ -21,6 +22,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Säulendiagramm"),
                         fluidRow(
                           column(1, img(src='img/changeotime/bar.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Säulen eignen sich gut für die Darstellung von Veränderungen im Laufe der Zeit - am besten jedoch mit jeweils nur einer Datenreihe.")
                         ),
                         br(),
@@ -34,6 +36,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Balken + Linien Zeitstrahl"),
                         fluidRow(
                           column(1, img(src='img/changeotime/bar_line.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Ein gutes Mittel, um das Verhältnis zwischen einem Betrag (Balken) und einer Rate (Linie) über die Zeit darzustellen.")
                         ),
                         br(),
@@ -47,6 +50,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Slope"),
                         fluidRow(
                           column(1, img(src='img/changeotime/slope.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Gut für die Darstellung von sich ändernden Daten, solange die Daten auf 2 oder 3 Punkte vereinfacht werden können, ohne dass ein wichtiger Teil der Story verloren geht.")
                         ),
                         br(),
@@ -61,6 +65,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Flächen Diagramm"),
                         fluidRow(
                           column(1, img(src='img/changeotime/area.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Vorsicht ist geboten, denn damit lassen sich Änderungen an der Gesamtsumme gut darstellen, aber es kann sehr schwierig sein, Änderungen an den Komponenten zu erkennen.")
                         ),
                         br(),
@@ -75,6 +80,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Candlestick Diagramm"),
                         fluidRow(
                           column(1, img(src='img/changeotime/candle.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Diese Diagramme konzentrieren sich in der Regel auf die Tagesaktivitäten und zeigen die Eröffnungs-/Schluss- und Höchst-/Tiefststände eines jeden Tages.")
                         ),
                         br(),
@@ -89,6 +95,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Liniendiagramm mit Konfidenzbändern (Fan Chart)"),
                         fluidRow(
                           column(1, img(src='img/changeotime/fan.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Wird verwendet, um die Ungewissheit bei Zukunftsprojektionen von v.a. Zeitreihen aufzuzeigen - in der Regel wächst diese, je weiter die Projektion in die Zukunft reicht.")
                         ),
                         br(),
@@ -103,6 +110,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Verbundenes Streudiagramm"),
                         fluidRow(
                           column(1, img(src='img/changeotime/c_scatter.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Ein gutes Mittel, um veränderte Daten für zwei Variablen zu zeigen, wenn es ein relativ klares Muster der Entwicklung gibt.")
                         ),
                         br(),
@@ -116,6 +124,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Kalendar Heatmap"),
                         fluidRow(
                           column(1, img(src='img/changeotime/heatmap.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Eine großartige Möglichkeit zur Darstellung von zeitlichen Mustern (täglich, wöchentlich, monatlich) - auf Kosten der Genauigkeit der Mengenangaben.")
                         ),
                         br(),
@@ -129,6 +138,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Priestley Zeitleiste"),
                         fluidRow(
                           column(1, img(src='img/changeotime/p_timeline.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Ideal, wenn Datum und Dauer Schlüsselelemente für die Story in den Daten sind.")
                         ),
                         br(),
@@ -142,6 +152,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Zeitstrahl mit Kreisen"),
                         fluidRow(
                           column(1, img(src='img/changeotime/circle_timeline.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Gut geeignet für die Darstellung diskreter Werte unterschiedlicher Größe in mehreren Kategorien (z. B. Erdbeben nach Kontinenten).")
                         ),
                         br(),
@@ -155,6 +166,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Vertikale Zeitleiste"),
                         fluidRow(
                           column(1, img(src='img/changeotime/v_timeline.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Stellt die Zeit auf der Y-Achse dar. Gut für die Darstellung von detaillierten Zeitreihen, die besonders gut funktionieren, wenn man auf dem Handy scrollt.")
                         ),
                         br(),
@@ -168,6 +180,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Seismogramm"),
                         fluidRow(
                           column(1, img(src='img/changeotime/seismo.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Eine weitere Alternative zum Zeitstrahl mit Kreisen zur Darstellung von Reihen, bei denen es große Schwankungen in den Daten gibt.")
                         ),
                         br(),
@@ -181,6 +194,7 @@ changeotime <- tabPanel(title = "Veränderung über Zeit",
                         h4("Stromgrafik (Streamgraph)"),
                         fluidRow(
                           column(1, img(src='img/changeotime/stream.png', align = "left", height="150%", width="150%")),
+                          column(1),
                           column(5, "Eine Art von Flächendiagramm, das verwendet wird, wenn es wichtiger ist, die Veränderungen der Proportionen im Laufe der Zeit zu sehen als die einzelnen Werte.")
                         ),
                         br(),
