@@ -31,3 +31,7 @@ observeEvent(input$flow,{
   updateTabsetPanel(session = session, inputId = "navbar", selected = "flow")
   closeSweetAlert(session = session)
 })
+observeEvent(input$sandbox,{
+  updateTabsetPanel(session = session, inputId = "navbar", selected = "sandbox")
+  closeSweetAlert(session = session)
+})

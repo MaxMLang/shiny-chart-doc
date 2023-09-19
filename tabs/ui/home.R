@@ -3,6 +3,7 @@ home <- tabPanel(title = "Home",
                  hr(),
                  br(), br(),
                  HTML("<h1><center>Vokabular für Visualisierung - <b>ADA Workshop</b></center></h1>"),
+                 
                  br(), br(), br(), br(),
                  column(width = 3, align = "center",
                         tab_voronoys(texto = "Abweichungen", cor = cores[1], icon = "info.png", id = "deviations")
@@ -30,6 +31,9 @@ home <- tabPanel(title = "Home",
                  ),
                  column(width = 3, align = "center",
                         tab_voronoys(texto = "Strömung", cor = cores[9], icon = "info.png", id = "flow")
+                 ),
+                 column(width = 3, align = "center",
+                        tab_voronoys(texto = "Sandbox", cor = cores[1], icon = "info.png", id = "sandbox")
                  ),
                  column(width = 12,
                         br(), br(), br(), br(),

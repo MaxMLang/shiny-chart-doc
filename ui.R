@@ -24,7 +24,6 @@ shinyUI(
                selected = "home",
                theme = "styles.css", 
                fluid = T,
-               ##-- Abas ----
                home,
                deviations,
                correlation,
@@ -34,7 +33,8 @@ shinyUI(
                magnitude,
                parttowhole,
                spatial,
-               flow
+               flow,
+               sandbox
     ),
     ##-- Footer ----
     div(class = "footer",
