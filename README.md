@@ -1,7 +1,3 @@
-<img src="path/to/image.png">]([https://link-to-your-URL/](https://avatars.githubusercontent.com/u/95627998?s=200&v=4](https://www.berd-nfdi.de/wp-content/uploads/2022/09/Logo_BERD_Academy.svg))
-
-
-
 
 # Shiny Chart Doctor
 
@@ -35,7 +31,7 @@ We welcome contributions and feedback to improve the Shiny Chart Doctor. If you 
 
 - **Alan Smith and FT Chart Doctor:** For the inspiration and guidance derived from the FT Chart Doctor column.
 - **Voronoys Project:** For providing the template on which this app is based.
-- **NFDI:** For their support and the opportunity to use this tool in a workshop setting.
+- **[NFDI](https://github.com/BERD-NFDI):** For their support and the opportunity to use this tool in a workshop setting.
 
 ## License
 
