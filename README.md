@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="[]([https://avatars.githubusercontent.com/u/95627998?s=200&v=4](https://www.berd-nfdi.de/wp-content/uploads/2022/09/Logo_BERD_Academy.svg))" alt="Shiny Chart Doctor">
-</p>
+[<img src="path/to/image.png">]([https://link-to-your-URL/](https://avatars.githubusercontent.com/u/95627998?s=200&v=4](https://www.berd-nfdi.de/wp-content/uploads/2022/09/Logo_BERD_Academy.svg))]
+
+
 
 
 # Shiny Chart Doctor
